@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.textArea{
+  height: 150px;
+  width: 600px;
+  border-radius: 5px;
+  padding: 30px;
+  font-size: 16px;
+}
+.statsDisplay{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.wraper{
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+p{
+  color:lightgray;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.word{
+  color:red;
+  font-weight: bold;
+}
+.count{
+  color:black;
+  font-weight: bold;
+}
